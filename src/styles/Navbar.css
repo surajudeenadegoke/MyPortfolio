@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #21325e;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+.nav--links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+.link--item {
+  margin-left: 40px;
+  text-decoration: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding: 10px;
+  transition: 0.3 ease-in-out;
+}
+.toggleButton > button {
+  background-color: #21325e;
+  border-style: none;
+  display: none;
+  cursor: pointer;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo--text {
+  color: white;
+}
+.link--item:hover {
+  background-color: white;
+  color: #21325e;
+}
+.link--item:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  color: red;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+@media screen and (max-width: 769px) {
+  .nav--links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 90px;
+    right: 0px;
+    background-color: #2d3d66;
+    width: 300px;
+    height: 78.5vh;
+    z-index: 1;
+  }
+  .toggleButton > button {
+    background-color: #21325e;
+    border-style: none;
+    display: block;
+    cursor: pointer;
+  }
+  
+}

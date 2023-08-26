@@ -1,0 +1,15 @@
+.projects {
+  height: calc(100vh - 180px);
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.projectItem {
+  border: 2px solid yellow;
+  width: 250px;
+  height: 250px;
+  color: black;
+  background-color: aliceblue;
+}

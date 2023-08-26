@@ -1,0 +1,82 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(48, 78, 32);
+}
+.about {
+  width: 100%;
+  height: calc(100vh - 180px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(18, 11, 2);
+}
+.about--h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 80px;
+  color: rgb(12, 5, 78);
+  /* height: 50px; */
+}
+.prompt {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 70%;
+  font-size: 30px;
+  margin-top: 40px;
+}
+.typewriter-text {
+  color: rgb(17, 5, 69);
+  font-weight: 400;
+}
+.skills {
+  width: 100%;
+  height: calc(100vh - 180px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #21325e;
+}
+.skills h1 {
+  font-size: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skills h2 {
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.social {
+  margin-top: 40px;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.socia-link {
+  font-size: 30px;
+}
+
+.item {
+  padding: 5px;
+  background-color: whitesmoke;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 769px) {
+
+  .about--h2 {
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 20px;
+  }
+  .prompt {
+    font-size: 20px;
+  }
+}
