@@ -3,7 +3,6 @@ import React from "react";
 import "./styles/App.css";
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
-import Projects from "./pages/Projects";
 import New from "./pages/New";
 import Navbar from "./Components/Navbar";
 import "./styles/Navbar.css";
@@ -16,7 +15,6 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/my_CV" element={<New />} />
         </Routes>
