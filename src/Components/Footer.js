@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer">
       <div className="socialMedia">
         <a
-          href="https://www.youtube.com/c/jamesqquick"
+          href="https://www.linkedin.com/in/surajudeen-adegoke-3a224aa0/"
           className="youtube social"
         >
           <Instagram />
@@ -21,14 +21,11 @@ const Footer = () => {
         >
           <Facebook />
         </a>
-        <a
-          href="https://www.youtube.com/c/jamesqquick"
-          className="youtube social"
-        >
+        <a href="https://twitter.com/adeg4_a" className="youtube social">
           <Twitter />
         </a>
         <a
-          href="https://www.youtube.com/c/jamesqquick"
+          href="https://www.linkedin.com/in/surajudeen-adegoke-3a224aa0/"
           className="youtube social"
         >
           <LinkedIn />

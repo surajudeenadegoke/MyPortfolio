@@ -19,8 +19,8 @@ const Home = () => {
                 changeDelay: 3,
                 changeDeleteSpeed: 2,
                 autoStart: true,
-                loop: true,
-              }}
+                loop: false,
+              }} 
             />
           </h4>
         </div>
