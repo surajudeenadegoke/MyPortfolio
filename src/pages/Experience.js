@@ -45,7 +45,7 @@ const Experience = () => {
             className="vertical-timeline--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "black" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="November 2022 - January 2023"
+            date="November 2022 - September 2023"
             iconStyle={{ backgroundColor: "yellow", color: "white" }}
             icon={<SchoolIcon />}
           >
@@ -64,7 +64,7 @@ const Experience = () => {
             icon={<WorkIcon />}
           >
             <h4 className="vertical-timeline-element-subtitle">
-              Decagon Benin 
+              Decagon Benin
             </h4>
             <p>Associate Software Engineer</p>
           </VerticalTimelineElement>
