@@ -12,23 +12,23 @@ const Footer = () => {
           href="https://www.linkedin.com/in/surajudeen-adegoke-3a224aa0/"
           className="youtube social"
         >
-          <Instagram />
+          <LinkedIn />
         </a>
-
         <a
           href="https://web.facebook.com/profile.php?id=100004866885625"
           className="youtube social"
         >
           <Facebook />
         </a>
-        <a href="https://twitter.com/adeg4_a" className="youtube social">
-          <Twitter />
-        </a>
         <a
-          href="https://www.linkedin.com/in/surajudeen-adegoke-3a224aa0/"
+          href="https://www.instagram.com/surajudeenadegoke/"
           className="youtube social"
         >
-          <LinkedIn />
+          <Instagram />
+        </a>
+
+        <a href="https://twitter.com/adeg4_a" className="youtube social">
+          <Twitter />
         </a>
       </div>
       <p className="footer-para">&copy; 2023 surajcodes</p>

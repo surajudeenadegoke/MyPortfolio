@@ -5,23 +5,24 @@ import Logo from "../assets/Images/myPic.gif";
 import ReorderIcon from "@material-ui/icons/Reorder";
 
 const Navbar = () => {
+  const handleClick = () => {
+    console.log("clicked");
+  };
   return (
     <nav className="navbar">
       <div className="logo">
         <img src={Logo} alt="logo" width={50} height={50} />
         <p className="logo--text">surajcodes</p>
       </div>
-      <div className="toggleButton">
-        <button>
-          <ReorderIcon
-            style={{
-              fontSize: "40px",
-              color: "white",
-              backgroundColor: "#21325e",
-            }}
-          />
-        </button>
-      </div>
+      <button className="toggleButton" onclick={handleClick}>
+        <ReorderIcon
+          style={{
+            fontSize: "40px",
+            color: "white",
+            backgroundColor: "#21325e",
+          }}
+        />
+      </button>
 
       <div className="nav--links">
         <Link to="/" className="link--item">
@@ -40,7 +41,6 @@ const Navbar = () => {
           my_CV
         </a>
       </div>
-      
     </nav>
   );
 };
