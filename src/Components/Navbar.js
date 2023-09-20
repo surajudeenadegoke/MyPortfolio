@@ -1,12 +1,14 @@
-// import React, { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 import Logo from "../assets/Images/myPic.gif";
 import ReorderIcon from "@material-ui/icons/Reorder";
+import CloseIcon from "@material-ui/icons/Close";
 
 const Navbar = () => {
+  const [toggleButton, setToggleButton] = useState(true);
   const handleClick = () => {
-    console.log("clicked");
+    setToggleButton(!toggleButton);
   };
   return (
     <nav className="navbar">
@@ -14,15 +16,25 @@ const Navbar = () => {
         <img src={Logo} alt="logo" width={50} height={50} />
         <p className="logo--text">surajcodes</p>
       </div>
-      <button className="toggleButton" onclick={handleClick}>
-        <ReorderIcon
-          style={{
-            fontSize: "40px",
-            color: "white",
-            backgroundColor: "#21325e",
-          }}
-        />
-      </button>
+      <div className="toggleButton" onclick={handleClick}>
+        {toggleButton ? (
+          <ReorderIcon
+            style={{
+              fontSize: "40px",
+              color: "white",
+              backgroundColor: "#21325e",
+            }}
+          />
+        ) : (
+          <CloseIcon
+            style={{
+              fontSize: "40px",
+              color: "white",
+              backgroundColor: "#21325e",
+            }}
+          />
+        )}
+      </div>
 
       <div className="nav--links">
         <Link to="/" className="link--item">
