@@ -10,33 +10,32 @@ const Navbar = () => {
   const handleClick = () => {
     setToggleButton(!toggleButton);
   };
+  const style = {
+    fontSize: "40px",
+    color: "white",
+    backgroundColor: "#21325e",
+  };
+  const handleToggle =()=>{
+    setToggleButton(!toggleButton)
+  }
   return (
-    <nav className="navbar">
+    <nav id="navbar">
       <div className="logo">
         <img src={Logo} alt="logo" width={50} height={50} />
         <p className="logo--text">surajcodes</p>
       </div>
-      <div className="toggleButton" onclick={handleClick}>
+      <div className="toggleButton" onClick={handleClick}>
         {toggleButton ? (
-          <ReorderIcon
-            style={{
-              fontSize: "40px",
-              color: "white",
-              backgroundColor: "#21325e",
-            }}
-          />
+          <CloseIcon style={style} />
         ) : (
-          <CloseIcon
-            style={{
-              fontSize: "40px",
-              color: "white",
-              backgroundColor: "#21325e",
-            }}
-          />
+          <ReorderIcon style={style} />
         )}
       </div>
 
-      <div className="nav--links">
+      <div
+        id="nav--links" onClick ={handleToggle}
+        className={toggleButton ? "#nav--links active" : "#nav--links"}
+      >
         <Link to="/" className="link--item">
           Home
         </Link>

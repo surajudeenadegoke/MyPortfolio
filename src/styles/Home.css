@@ -70,13 +70,21 @@
 }
 
 @media screen and (max-width: 769px) {
-
   .about--h2 {
     font-size: 30px;
     margin-right: auto;
     margin-left: 20px;
+    /* text-align: center; */
   }
   .prompt {
     font-size: 20px;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills{
+    
   }
 }
