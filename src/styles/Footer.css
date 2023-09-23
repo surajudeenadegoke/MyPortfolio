@@ -5,9 +5,9 @@
   flex-direction: column;
   width: 100%;
   background: #21325e;
-  /* position: sticky; */
+  position: sticky;
+  bottom: 0;
   height: 100px;
-
 }
 
 .footer p {
@@ -26,13 +26,11 @@
   cursor: pointer;
 }
 
-
 @media screen and (max-width: 768px) {
   .footer {
-    width: 100vw;
+    width: 100%;
     position: sticky;
     bottom: 0px;
-    /* height: 100px; */
   }
   .socialMedia svg {
     color: white;

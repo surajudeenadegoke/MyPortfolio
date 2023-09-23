@@ -5,9 +5,9 @@
   padding: 20px 50px;
   background-color: #21325e;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-  /* height: 100vh; */
-  
-  
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 #nav--links {
   display: flex;
@@ -15,7 +15,7 @@
   align-items: center;
   list-style: none;
   text-decoration: none;
-  position:sticky
+  position: sticky;
 }
 .link--item {
   margin-left: 40px;
@@ -57,10 +57,10 @@
   bottom: -4px;
   left: 20px;
 }
-.icon{
+.icon {
   font-size: "40px";
   color: "white";
-  background-color: "#21325e"
+  background-color: "#21325e";
 }
 @media screen and (max-width: 769px) {
   #nav--links {
@@ -76,8 +76,6 @@
     height: 72vh;
     z-index: 1;
     transition: 0.3 ease-in-out;
-    
-
   }
   .toggleButton {
     background-color: #21325e;
@@ -85,8 +83,7 @@
     display: block;
     cursor: pointer;
   }
-  #nav--links.active{
+  #nav--links.active {
     right: 0px;
   }
-
 }
