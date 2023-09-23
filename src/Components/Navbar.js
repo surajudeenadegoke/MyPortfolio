@@ -15,9 +15,13 @@ const Navbar = () => {
     color: "white",
     backgroundColor: "#21325e",
   };
-  const handleToggle =()=>{
-    setToggleButton(!toggleButton)
-  }
+  const handleToggle = () => {
+    setToggleButton(!toggleButton);
+  };
+  const handleScroll = (event) => {
+    setToggleButton(!toggleButton);
+  };
+  window.addEventListener("scroll", handleScroll);
   return (
     <nav id="navbar">
       <div className="logo">
@@ -33,16 +37,20 @@ const Navbar = () => {
       </div>
 
       <div
-        id="nav--links" onClick ={handleToggle}
+        id="nav--links"
+        onClick={handleToggle}
         className={toggleButton ? "#nav--links active" : "#nav--links"}
       >
         <Link to="/" className="link--item">
           Home
         </Link>
         <Link to="/experience" className="link--item">
+          Education
+        </Link>
+        <Link to="/education" className="link--item">
           Experience
         </Link>
-        <Link to="projects" className="link--item">
+        <Link to="" className="link--item">
           Projects
         </Link>
         <a

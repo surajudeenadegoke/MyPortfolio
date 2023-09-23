@@ -14,38 +14,34 @@ const Home = () => {
                 strings: [
                   "A Proficient Frontend Developer with 3+ years of experience",
                   "A design thinker",
-                  "A Software Developer with passion for learning and innovating",
+                  "  A Software Developer with passion for learning and innovation",
                 ],
                 changeDelay: 3,
                 changeDeleteSpeed: 2,
                 autoStart: true,
                 loop: false,
-              }} 
+              }}
             />
           </h4>
         </div>
       </div>
       <div className="skills">
         <h1>My Skills</h1>
-        <ul className="list" >
+        <ul className="list">
           <li className="item">
             <h2>Frontend</h2>
-            <span>
-              React,CSS,HTMLRedux,MaterialUI,Yarn,TailwindCSS,NextJS,NPM
-            </span>
+            <span>React, Angular, CSS, HTMLRedux, TailwindCSS, NextJS</span>
           </li>
           <li className="item">
             <h2>Backend</h2>
-            <span>React,CSS,HTML,MongoDB,Redux,</span>
+            <span>NodeJS, MongoDB</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript,TypeScript,SQL</span>
+            <span>JavaScript, TypeScript, SQL</span>
           </li>
-         
         </ul>
       </div>
-     
     </div>
   );
 };

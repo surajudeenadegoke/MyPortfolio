@@ -58,7 +58,7 @@
   align-items: center;
   gap: 20px;
 }
-.socia-link {
+.social-link {
   font-size: 30px;
 }
 
@@ -84,7 +84,10 @@
     justify-content: center;
     align-items: center;
   }
-  .skills{
-    
-  }
+.item span{
+  white-space:normal
+}
+.skills h1{
+  font-size:3rem
+}
 }
