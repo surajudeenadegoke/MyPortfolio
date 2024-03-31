@@ -50,7 +50,6 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .social {
-  margin-top: 40px;
   cursor: pointer;
   list-style: none;
   display: flex;
@@ -84,10 +83,10 @@
     justify-content: center;
     align-items: center;
   }
-.item span{
-  white-space:normal
-}
-.skills h1{
-  font-size:3rem
-}
+  .item span {
+    white-space: normal;
+  }
+  .skills h1 {
+    font-size: 3rem;
+  }
 }

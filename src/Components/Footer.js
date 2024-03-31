@@ -31,7 +31,8 @@ const Footer = () => {
           <Twitter />
         </a>
       </div>
-      <p className="footer-para">&copy; 2023 surajcodes</p>
+      <div className="paragraph">  <p className="footer-para">&copy; 2023 surajcodes</p></div>
+    
     </div>
   );
 };

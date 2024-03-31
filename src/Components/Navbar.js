@@ -57,7 +57,7 @@ const Navbar = () => {
           href="https://docs.google.com/document/d/1cVyFKGL_NOcvmQDk5rtYEfCPiNkGKZTJZIYlt-Qx_hY/edit"
           className="link--item"
         >
-          my_CV
+          CV
         </a>
       </div>
     </nav>
