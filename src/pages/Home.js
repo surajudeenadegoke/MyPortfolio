@@ -30,7 +30,7 @@ const Home = () => {
         <ul className="list">
           <li className="item">
             <h2>Frontend</h2>
-            <span>React, Angular, CSS, HTML, Redux, TailwindCSS, NextJS</span>
+            <span>React, NextJS, Angular, CSS, HTML, Redux, TailwindCSS</span>
           </li>
           <li className="item">
             <h2>Backend</h2>
