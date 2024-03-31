@@ -9,7 +9,7 @@ import WorkIcon from "@material-ui/icons/Work";
 const Experience = () => {
   const style = { marginTop: "10px" };
   return (
-    <div style={{marginTop:"100px"}}>
+    <div style={{marginTop:"100px", marginBottom:"150px"}}>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

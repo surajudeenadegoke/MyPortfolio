@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Education = () => {
   return (
-    <div style={{ marginTop: "100px" }}>
+    <div style={{ marginTop: "100px",marginBottom:"200px" }}>
       <h1 style={{ height: "660px", marginTop: "20px" }}>
         <VerticalTimeline lineColor="black">
           <VerticalTimelineElement

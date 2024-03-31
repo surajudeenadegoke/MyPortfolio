@@ -54,7 +54,7 @@ const Navbar = () => {
           Projects
         </Link>
         <a
-          href="https://docs.google.com/document/d/1M5ST89QjVWAys9-Bs5jc1N90vVb90vQI/edit?usp=sharing&ouid=103733681009080376578&rtpof=true&sd=true"
+          href="https://docs.google.com/document/d/1cVyFKGL_NOcvmQDk5rtYEfCPiNkGKZTJZIYlt-Qx_hY/edit?usp=sharing"
           className="link--item"
         >
           my_CV
