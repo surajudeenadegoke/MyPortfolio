@@ -5,7 +5,7 @@
   flex-direction: column;
   width: 100%;
   background: #21325e;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   height: 100px;
 }

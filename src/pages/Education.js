@@ -8,8 +8,8 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Education = () => {
   return (
-    <div className="education">
-      <h1 style={{height:"660px",marginTop:"20px"}}>
+    <div style={{ marginTop: "100px" }}>
+      <h1 style={{ height: "660px", marginTop: "20px" }}>
         <VerticalTimeline lineColor="black">
           <VerticalTimelineElement
             className="vertical-timeline--education"
@@ -40,7 +40,6 @@ const Education = () => {
             </h4>
             <p>Bachelor of Science [Computer Science]</p>
           </VerticalTimelineElement>
-         
         </VerticalTimeline>
       </h1>
     </div>

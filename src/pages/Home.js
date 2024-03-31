@@ -12,7 +12,7 @@ const Home = () => {
             <Typewriter
               options={{
                 strings: [
-                  "A Proficient Frontend Developer with 3+ years of experience",
+                  "A Proficient Software Developer with 4+ years of experience",
                   "A design thinker",
                   "  A Software Developer with passion for learning and innovation",
                 ],
@@ -30,11 +30,11 @@ const Home = () => {
         <ul className="list">
           <li className="item">
             <h2>Frontend</h2>
-            <span>React, Angular, CSS, HTMLRedux, TailwindCSS, NextJS</span>
+            <span>React, Angular, CSS, HTML, Redux, TailwindCSS, NextJS</span>
           </li>
           <li className="item">
             <h2>Backend</h2>
-            <span>NodeJS, MongoDB</span>
+            <span>NodeJS, Express, MongoDB</span>
           </li>
           <li className="item">
             <h2>Languages</h2>

@@ -9,7 +9,7 @@ import WorkIcon from "@material-ui/icons/Work";
 const Experience = () => {
   const style = { marginTop: "10px" };
   return (
-    <div>
+    <div style={{marginTop:"100px"}}>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -19,7 +19,7 @@ const Experience = () => {
             fontSize: "0.9rem",
           }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="September 2023 - till date"
+          date="January 2024 - till date"
           iconStyle={{
             background: "rgb(233, 30, 99)",
             color: "#fff",
@@ -42,12 +42,14 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="November 2022 - August 2023"
+          date="November 2022 - January 2024"
           iconStyle={{
             background: "rgb(33, 150, 243)",
             color: "#fff",
             fontSize: "0.9rem",
+            
           }}
+        
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -103,7 +105,7 @@ const Experience = () => {
             fontSize: "0.9rem",
           }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="July 2020 - February 2021"
+          date="January 2019 - February 2021"
           iconStyle={{
             background: "rgb(33, 150, 243)",
             color: "#fff",
@@ -117,35 +119,6 @@ const Experience = () => {
           <h4 className="vertical-timeline-element-subtitle">
             Kurama Tech Media, Lagos
           </h4>
-          <div style={style}>
-            <ul>
-              <li>
-                {" "}
-                Collaborated with backend developers and DevOps to build
-                software products
-              </li>
-              <li>
-                {" "}
-                Provided technical assistance, and translating business
-                requirements into technical requirements.
-              </li>
-            </ul>
-          </div>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="January 2020 - June 2020"
-          iconStyle={{
-            background: "rgb(233, 30, 99)",
-            color: "#fff",
-            fontSize: "0.9rem",
-          }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Freelance Software Developer
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Lagos</h4>
           <div style={style}>
             <ul>
               <li>
