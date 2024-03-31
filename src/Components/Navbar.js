@@ -6,7 +6,7 @@ import ReorderIcon from "@material-ui/icons/Reorder";
 import CloseIcon from "@material-ui/icons/Close";
 
 const Navbar = () => {
-  const [toggleButton, setToggleButton] = useState(true);
+  const [toggleButton, setToggleButton] = useState(false);
   const handleClick = () => {
     setToggleButton(!toggleButton);
   };
@@ -18,10 +18,7 @@ const Navbar = () => {
   const handleToggle = () => {
     setToggleButton(!toggleButton);
   };
-  // const handleScroll = (event) => {
-  //   setToggleButton(!toggleButton);
-  // };
-  // window.addEventListener("scroll", handleScroll);
+
   return (
     <nav id="navbar">
       <div className="logo">
@@ -41,16 +38,16 @@ const Navbar = () => {
         onClick={handleToggle}
         className={toggleButton ? "#nav--links active" : "#nav--links"}
       >
-        <Link to="/" className="link--item">
+        <Link to="/" className="link--item" onClick={handleToggle}>
           Home
         </Link>
-        <Link to="/experience" className="link--item">
+        <Link to="/experience" className="link--item" onClick={handleToggle}>
           Education
         </Link>
-        <Link to="/education" className="link--item">
+        <Link to="/education" className="link--item" onClick={handleToggle}>
           Experience
         </Link>
-        <Link to="" className="link--item">
+        <Link to="" className="link--item" onClick={handleToggle}>
           Projects
         </Link>
         <a
@@ -65,4 +62,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

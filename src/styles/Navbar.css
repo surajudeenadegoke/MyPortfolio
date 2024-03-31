@@ -69,29 +69,33 @@
   #nav--links {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     position: fixed;
-    top: 100px;
+    top: 0;
     right: -300px;
     background-color: #2d3d66;
-    width: 200px;
+    /* width: 200px; */
     height: 45vh;
     z-index: 1;
     transition: 0.3 ease-in-out;
-    
   }
   .toggleButton {
     background-color: #21325e;
     border-style: none;
     display: block;
     cursor: pointer;
+    z-index: 200;
   }
   #nav--links.active {
-    right: 0px;
+    /* right: 0px; */
+    right: 0;
+    height: 100%;
+    opacity: 0.9;
+    visibility: visible;
+    z-index: 10;
   }
-  .navbar{
-    visibility:hidden;
-    
+  .navbar {
+    visibility: hidden;
   }
 }

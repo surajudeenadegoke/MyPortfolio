@@ -6,10 +6,9 @@
   background: #21325e;
   position: fixed;
   bottom: 0;
-  right:0;
-  left:0;
+  right: 0;
+  left: 0;
   height: 100px;
-  
 }
 
 .footer p {
@@ -27,6 +26,9 @@
   font-size: 40px;
   cursor: pointer;
 }
+.paragraph {
+  margin-top: 5px;
+}
 
 @media screen and (max-width: 768px) {
   .footer {
@@ -37,6 +39,6 @@
   .socialMedia svg {
     color: white;
     font-size: 30px;
-    cursor: pointer; 
+    cursor: pointer;
   }
 }
