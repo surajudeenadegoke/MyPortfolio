@@ -11,7 +11,6 @@
   left: 0;
   z-index: 1;
   height: 100px;
-  
 }
 #nav--links {
   display: flex;
@@ -19,7 +18,7 @@
   align-items: center;
   list-style: none;
   text-decoration: none;
-  /* position: sticky; */
+  position: sticky;
 }
 .link--item {
   margin-left: 40px;
