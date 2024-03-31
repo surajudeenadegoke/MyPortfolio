@@ -72,13 +72,14 @@
     justify-content: flex-start;
     align-items: flex-start;
     position: fixed;
-    top: 90px;
+    top: 100px;
     right: -300px;
     background-color: #2d3d66;
     width: 200px;
     height: 72vh;
     z-index: 1;
     transition: 0.3 ease-in-out;
+    
   }
   .toggleButton {
     background-color: #21325e;
@@ -88,5 +89,8 @@
   }
   #nav--links.active {
     right: 0px;
+  }
+  .navbar{
+    visibility:hidden
   }
 }
