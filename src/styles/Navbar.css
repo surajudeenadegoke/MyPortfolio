@@ -76,7 +76,7 @@
     right: -300px;
     background-color: #2d3d66;
     width: 200px;
-    height: 72vh;
+    height: 45vh;
     z-index: 1;
     transition: 0.3 ease-in-out;
     
@@ -91,6 +91,7 @@
     right: 0px;
   }
   .navbar{
-    visibility:hidden
+    visibility:hidden;
+    
   }
 }
