@@ -9,7 +9,7 @@ import WorkIcon from "@material-ui/icons/Work";
 const Experience = () => {
   const style = { marginTop: "10px" };
   return (
-    <div style={{marginTop:"100px", marginBottom:"150px"}}>
+    <div style={{ marginTop: "100px", marginBottom: "150px" }}>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -19,7 +19,7 @@ const Experience = () => {
             fontSize: "0.9rem",
           }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="January 2024 - till date"
+          date="November 2023 - till date"
           iconStyle={{
             background: "rgb(233, 30, 99)",
             color: "#fff",
@@ -42,14 +42,12 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="November 2022 - January 2024"
+          date="November 2022 - August 2023"
           iconStyle={{
             background: "rgb(33, 150, 243)",
             color: "#fff",
             fontSize: "0.9rem",
-            
           }}
-        
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -63,7 +61,12 @@ const Experience = () => {
               <li>
                 Contributed to creating responsive user-friendly web pages
               </li>
-              <li>Contributed to optimize code base</li>
+              <li>
+                {" "}
+                Maintained and improved websites to enhance user experience and
+                performance.
+              </li>
+              <li>Optimized applications for maximum speed </li>
             </ul>
           </div>
         </VerticalTimelineElement>
@@ -77,11 +80,9 @@ const Experience = () => {
           }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
-             Software Engineer
-          </h3>
+          <h3 className="vertical-timeline-element-title">Software Engineer</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            AeroTech Innovations, Benin
+            Decagon, Edo-Tech Park, Benin City
           </h4>
           <div style={style}>
             <ul>
@@ -89,6 +90,10 @@ const Experience = () => {
               <li>
                 Developed high performance application by writing testable,
                 reusable, and efficient code
+              </li>
+              <li>
+                Built and deployed several projects with Node.js and React
+                framework.
               </li>
               <li>
                 Experienced code optimization and writing test cases using jest
@@ -105,7 +110,7 @@ const Experience = () => {
             fontSize: "0.9rem",
           }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="January 2019 - February 2021"
+          date="September 2009 - February 2022"
           iconStyle={{
             background: "rgb(33, 150, 243)",
             color: "#fff",
@@ -114,22 +119,25 @@ const Experience = () => {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Junior Software Developer
+            Distribution Substation Operator
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Kurama Tech Media, Lagos
+            Benin Electricity Distribution Company, Benin City
           </h4>
           <div style={style}>
             <ul>
               <li>
                 {" "}
-                Collaborated with backend developers and DevOps to build
-                software products
+                Switched and maintained substation equipment for proper
+                operation
               </li>
               <li>
                 {" "}
-                Provided technical assistance, and translating business
-                requirements into technical requirements.
+                Effective documentation and reporting of daily operations
+              </li>
+              <li>
+                {" "}
+                Analyzed problems to determine the type of necessary repair.
               </li>
             </ul>
           </div>

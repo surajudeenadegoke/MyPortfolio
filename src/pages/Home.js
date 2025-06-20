@@ -12,7 +12,7 @@ const Home = () => {
             <Typewriter
               options={{
                 strings: [
-                  "A Proficient Software Developer with 4+ years of experience",
+                  "A Proficient Software Developer with 3+ years of experience",
                   "A design thinker",
                   "  A Software Developer with passion for learning and innovation",
                 ],
