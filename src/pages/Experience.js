@@ -19,7 +19,7 @@ const Experience = () => {
             fontSize: "0.9rem",
           }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="November 2023 - till date"
+          date="March 2024 - till date"
           iconStyle={{
             background: "rgb(233, 30, 99)",
             color: "#fff",
@@ -42,7 +42,7 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="November 2022 - August 2023"
+          date="November 2022 - January 2024"
           iconStyle={{
             background: "rgb(33, 150, 243)",
             color: "#fff",
@@ -70,11 +70,18 @@ const Experience = () => {
             </ul>
           </div>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{
+            background: "rgb(33, 150, 243)",
+            color: "black",
+            fontSize: "0.9rem",
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="March 2021 - November 2022"
           iconStyle={{
-            background: "rgb(233, 30, 99)",
+            background: "rgb(233,30,99",
             color: "#fff",
             fontSize: "0.9rem",
           }}
@@ -86,8 +93,9 @@ const Experience = () => {
           </h4>
           <div style={style}>
             <ul>
-              <li>Contributed to building various projects</li>
+              <li> Contributed to building various projects</li>
               <li>
+                {" "}
                 Developed high performance application by writing testable,
                 reusable, and efficient code
               </li>
@@ -104,13 +112,7 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{
-            background: "rgb(33, 150, 243)",
-            color: "black",
-            fontSize: "0.9rem",
-          }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="September 2009 - February 2022"
+          date="January 2020 - February 2021"
           iconStyle={{
             background: "rgb(33, 150, 243)",
             color: "#fff",
@@ -119,26 +121,52 @@ const Experience = () => {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Distribution Substation Operator
+            Junior Software Developer
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Kurama Tech. Media
+          </h4>
+          <div style={style}>
+            <ul>
+              <li>
+                Contributed to creating responsive user-friendly web pages
+              </li>
+              <li>
+                {" "}
+                Maintained and improved websites to enhance user experience and
+                performance.
+              </li>
+              <li>Optimized applications for maximum speed </li>
+            </ul>
+          </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: "rgb(33, 150, 243)",
+            color: "black",
+            fontSize: "0.9rem",
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="November 2016 - December 2019"
+          iconStyle={{
+            background: "rgb(233,30,99",
+            color: "#fff",
+            fontSize: "0.9rem",
+          }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Centralized System Operation Officer
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Benin Electricity Distribution Company, Benin City
           </h4>
           <div style={style}>
             <ul>
-              <li>
-                {" "}
-                Switched and maintained substation equipment for proper
-                operation
-              </li>
-              <li>
-                {" "}
-                Effective documentation and reporting of daily operations
-              </li>
-              <li>
-                {" "}
-                Analyzed problems to determine the type of necessary repair.
-              </li>
+              <li> Network Coordination</li>
+              <li> Data Analysis</li>
+              <li> Load Forecast</li>
             </ul>
           </div>
         </VerticalTimelineElement>

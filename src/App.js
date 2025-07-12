@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Experience from "./pages/Education";
 import Education from "./pages/Experience";
 import Navbar from "./Components/Navbar";
+import Project from "./pages/Projects";
 import "./styles/Navbar.css";
 import Footer from "./Components/Footer";
 
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/" exact element={<Home />} />
           <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
+            <Route path="/project" element={<Project />} />
           <Route path="/cv" />
         </Routes>
         <Footer />
