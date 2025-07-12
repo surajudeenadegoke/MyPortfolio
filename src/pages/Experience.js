@@ -30,7 +30,7 @@ const Experience = () => {
           <h3 className="vertical-timeline-element-title">
             Freelance Software Developer
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Lagos</h4>
+          <h4 className="vertical-timeline-element-subtitle">Benin City</h4>
           <div style={style}>
             <ul>
               <li>Creating Custom Software</li>
