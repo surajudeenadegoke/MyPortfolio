@@ -1,21 +1,24 @@
 import React from "react";
 import "../styles/Project.css"; // Import the CSS
+import todoImage from "../assets/todo.webp";
+import portfolio from "../assets/portfolio.jpg";
+import blog from "../assets/blg.webp";
 
 const projectData = [
   {
     title: "Todo App",
-    image: "href=https://www.flaticon.com/free-icons/to-do" ,
+    image: todoImage,
     link: "https://todo-app-psi-coral.vercel.app/",
   },
   {
     title: "My Portfolio",
-    image: "/images/weather.png",
+    image: portfolio,
     link: "https://my-portfolio-surajudeenadegoke.vercel.app/education",
   },
   {
     title: "Blog Platform",
-    image: "/images/blog.png",
-    link: "https://blog-suraj.vercel.app",
+    image: blog,
+    link: "https://todo-app-psi-coral.vercel.app/",
   },
 ];
 
