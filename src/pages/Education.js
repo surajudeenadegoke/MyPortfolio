@@ -43,19 +43,6 @@ const Education = () => {
             </h4>
             <p>Bachelor of Science (Computer Science) [CGPA:4.26]</p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "black" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="November 1996 - November 1998"
-            iconStyle={{ backgroundColor: "black", color: "white" }}
-            icon={<SchoolIcon />}
-          >
-            <h4 className="vertical-timeline-element-subtitle">
-              The Federal Polytechnic, Ede
-            </h4>
-            <p>National Diploma (Electrical and Electronics Engineering) [Upper Credit]</p>
-          </VerticalTimelineElement>
         </VerticalTimeline>
       </h1>
     </div>

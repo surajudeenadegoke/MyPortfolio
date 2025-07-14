@@ -1,23 +1,22 @@
-
-import React from 'react';
-import '../styles/Project.css'; // Import the CSS
+import React from "react";
+import "../styles/Project.css"; // Import the CSS
 
 const projectData = [
   {
     title: "Todo App",
-    image: "/images/todo.png",
-    link: "https://todo-suraj.vercel.app"
+    image: "href=https://www.flaticon.com/free-icons/to-do" ,
+    link: "https://todo-app-psi-coral.vercel.app/",
   },
   {
-    title: "Weather App",
+    title: "My Portfolio",
     image: "/images/weather.png",
-    link: "https://weather-suraj.vercel.app"
+    link: "https://my-portfolio-surajudeenadegoke.vercel.app/education",
   },
   {
     title: "Blog Platform",
     image: "/images/blog.png",
-    link: "https://blog-suraj.vercel.app"
-  }
+    link: "https://blog-suraj.vercel.app",
+  },
 ];
 
 const Projects = () => {
@@ -43,4 +42,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
