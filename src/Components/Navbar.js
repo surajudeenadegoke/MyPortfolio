@@ -51,7 +51,7 @@ const Navbar = () => {
           Projects
         </Link>
         <a
-          href="https://docs.google.com/document/d/1NK2828c2c9jU8lauIVZdkN0X7DB8L3Od/edit?usp=sharing&ouid=103733681009080376578&rtpof=true&sd=true"
+          href="https://docs.google.com/document/d/1NK2828c2c9jU8lauIVZdkN0X7DB8L3Od/edit"
           className="link--item"
         >
           CV
