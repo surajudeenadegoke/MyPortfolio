@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Project.css"; // Import the CSS
 import todoImage from "../assets/todo.webp";
 import portfolio from "../assets/portfolio.jpg";
-import blog from "../assets/blg.webp";
+import finance from "../assets/Images/finance.jpeg";
 
 const projectData = [
   {
@@ -16,9 +16,9 @@ const projectData = [
     link: "https://my-portfolio-surajudeenadegoke.vercel.app/education",
   },
   {
-    title: "Blog Platform",
-    image: blog,
-    link: "https://todo-app-psi-coral.vercel.app/",
+    title: "Finance Logger",
+    image: finance,
+    link: "https://finance-logger-sooty.vercel.app/",
   },
 ];
 
